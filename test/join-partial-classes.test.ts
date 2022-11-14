@@ -1,16 +1,6 @@
 import { JoinPartialClasses } from '../src/partials/join-partial-classes';
-
-class A {
-    foo() {
-        return 1;
-    }
-}
-
-class B {
-    bar() {
-        return 2;
-    }
-}
+import { A } from './helpers/a';
+import { B } from './helpers/b';
 
 describe('Join Partial Classes Test Suite', () => {
     test('Should join A and B together into one class', () => {
